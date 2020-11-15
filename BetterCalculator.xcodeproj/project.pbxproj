@@ -13,6 +13,7 @@
 		63D2324925619C1F00EAF121 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D2324825619C1F00EAF121 /* Preview Assets.xcassets */; };
 		63D2325425619C1F00EAF121 /* BetterCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D2325325619C1F00EAF121 /* BetterCalculatorTests.swift */; };
 		63D2325F25619C1F00EAF121 /* BetterCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D2325E25619C1F00EAF121 /* BetterCalculatorUITests.swift */; };
+		63D232702561B71C00EAF121 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D2326F2561B71C00EAF121 /* ActionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		63D2325A25619C1F00EAF121 /* BetterCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D2325E25619C1F00EAF121 /* BetterCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterCalculatorUITests.swift; sourceTree = "<group>"; };
 		63D2326025619C1F00EAF121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D2326F2561B71C00EAF121 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				63D2324125619C1E00EAF121 /* BetterCalculatorApp.swift */,
 				63D2324325619C1E00EAF121 /* ContentView.swift */,
+				63D2326F2561B71C00EAF121 /* ActionView.swift */,
 				63D2324525619C1F00EAF121 /* Assets.xcassets */,
 				63D2324A25619C1F00EAF121 /* Info.plist */,
 				63D2324725619C1F00EAF121 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D232702561B71C00EAF121 /* ActionView.swift in Sources */,
 				63D2324425619C1E00EAF121 /* ContentView.swift in Sources */,
 				63D2324225619C1E00EAF121 /* BetterCalculatorApp.swift in Sources */,
 			);
